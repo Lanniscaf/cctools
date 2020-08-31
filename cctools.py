@@ -561,37 +561,111 @@ def generadorr(bins, month=False, year=False, codigocvv=False):
 #---------------------------------------------------
 #---------------------------------------------------
 #-----------------BANNER----------------------------
-fot='\033[1;32;45m'+'CCCCCCCCCCCCCCCCCCCCCCCCCCCC\nCC [%$^]  CREDIT CARD     CC\nCC                        CC\nCC XXXX  XXXX  XXXX  XXXX CC\nCC             06/20      CC\nCC      LANNISCAF DEV-CO  CC\nCCCCCCCCCCCCCCCCCCCCCCCCCCCC'
+def banner2:
+  ban = """\033[1;32m          ``         T O O L S       ``            
+          -h-`                        -           
+          dMMy     `::`     ```      :N-           
+         `MMMm`.:+shMNy+-./ohNd+:.` /NM/           
+         .MMMmdNMMMMMMMh/-yMMMMMMNdsyMM+           
+         `NMM+yMMMMMMMm/+o:dMMMMMMMNoNM+           
+          yMm`-dNMNNmNNMMMMdhmNMMMm/`dM+          
+          +MN-``:++/oNMMMMMMh/+oo/-``hM/           
+          `dMm/::hmNMMNMMMMMMNmho-../hm`           
+         ` /MMMMNmMMMmdmmmmmNMMNNNmmMM: `          
+    `-+ydmo.dMMMMMMmhy/---:ohdNMMMMMMm:hmhs/-      
+./shmNMMMMMd+dMMMMMms-.-.-..:hmMMMMMddNMMMMMNdy+: 
+:hNMMMMMMMMMNNMMNMMNo-.-----/dNMNNMMNMMMMMMMMMMNs 
+ -sMMMMMmyys+dMMNmMNNhyo+oydNmhNmNNMsoyyyNMMMMN+`  
+  :dNs::o.`:dNMMNNmNmhhyyhyyydmNNMMMNy.`:o:/hMo-   
+   +do-.ym+NMMMMd.`:mNmmddmNNs.`/MMMMMhsN/`/hh.   
+    -ddmMMNNMMMMM/ :hMMMMMMMNs. hMMMMMdMMNdds      
+     ..yMMMMMMMMd+ -mMMMdNMMMs``yNMMMMMMMM-.       
+       .mMMMdy/.                  `-ohNMMMs`       
+       `+y+.                         `-sy:                             
+       
+\033[91m  Este script esta hecho con fines educativos
+"""
 def banner():
-  a="CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  a="\033[1;32m          ``         T O O L S       ``"
   for i in a:
     print(i,end="",flush=True)
     sleep(0.03)
-  a="\nCC [%$^]  CREDIT CARD     CC"
+  a="\n          -h-`                        -"
   for i in a:
     print(i,end="",flush=True)
     sleep(0.03)
-  a="\nCC                        CC"
+  a="\n          dMMy     `::`     ```      :N-"
   for i in a:
     print(i,end="",flush=True)
     sleep(0.03)
-  a="\nCC XXXX  XXXX  XXXX  XXXX CC"
+  a="\n         `MMMm`.:+shMNy+-./ohNd+:.` /NM/"
   for i in a:
     print(i,end="",flush=True)
     sleep(0.03)
-  a="\nCC               06/20    CC"
+  a="\n         .MMMmdNMMMMMMMh/-yMMMMMMNdsyMM+"
   for i in a:
     print(i,end="",flush=True)
     sleep(0.03)
-  a="\nCC      LANNISCAF DEV-CO  CC"
+  a="\n         `NMM+yMMMMMMMm/+o:dMMMMMMMNoNM+"
   for i in a:
     print(i,end="",flush=True)
     sleep(0.03)
-  a="\nCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  a="\n          yMm`-dNMNNmNNMMMMdhmNMMMm/`dM+"
   for i in a:
     print(i,end="",flush=True)
     sleep(0.03)
-  print()
+  a="\n          +MN-``:++/oNMMMMMMh/+oo/-``hM/"
+  for i in a:
+    print(i,end="",flush=True)
+    sleep(0.03)
+  a="\n          `dMm/::hmNMMNMMMMMMNmho-../hm`"
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n         ` /MMMMNmMMMmdmmmmmNMMNNNmmMM: `"
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n    `-+ydmo.dMMMMMMmhy/---:ohdNMMMMMMm:hmhs/-"
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n./shmNMMMMMd+dMMMMMms-.-.-..:hmMMMMMddNMMMMMNdy+:"
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n:hNMMMMMMMMMNNMMNMMNo-.-----/dNMNNMMNMMMMMMMMMMNs"
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n -sMMMMMmyys+dMMNmMNNhyo+oydNmhNmNNMsoyyyNMMMMN+`"
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n  :dNs::o.`:dNMMNNmNmhhyyhyyydmNNMMMNy.`:o:/hMo-"
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n   +do-.ym+NMMMMd.`:mNmmddmNNs.`/MMMMMhsN/`/hh."
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n    -ddmMMNNMMMMM/ :hMMMMMMMNs. hMMMMMdMMNdds"
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n     ..yMMMMMMMMd+ -mMMMdNMMMs``yNMMMMMMMM-."
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n       .mMMMdy/.                  `-ohNMMMs`"
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
+  a="\n       `+y+.                         `-sy:"
+  for i in a:
+    print(i, end="", flush=True)
+    sleep(0.03)
 
 #---------------------------------------------------
 #--------------------COMANDOS INLINE----------------
@@ -685,7 +759,7 @@ def main():
   while True:
     if(b>0):
       os.system('clear')
-      print(fot.center(50," "))
+      print(ban.center(50," "))
     print('\033[0m')
     for i in '\033[1;33m'+'[1] GENERAR CCS A BASE DE BIN':
         print(i,end='',flush=True)
