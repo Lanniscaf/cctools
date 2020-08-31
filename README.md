@@ -12,7 +12,7 @@ Esta herramienta de navaja suiza en el Carding dispone de una variedad de opcion
 
 -> Instalacion:
 // Actualizar el termux
- - apt-get update && update -y
+ - apt-get update && upgrade -y
 
 // Instalar python3 (solo en caso de no tenerlo instalado )
  - pkg install python3 --upgrade
