@@ -30,7 +30,7 @@ Esta herramienta de navaja suiza en el Carding dispone de una variedad de opcion
  - python3 cctools.py
 
 
-# Colaboradores
+# Colaboradores -Telegram
 
 -> Propietario     { @lanniscaf
 
