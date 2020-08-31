@@ -24,7 +24,7 @@ Esta herramienta de navaja suiza en el Carding dispone de una variedad de opcion
  - cd cctools/
 
 // Instalar las dependencias necesarias:
- - pip3 install -r requirements.txt
+ - pip install -r requirements.txt
 
 
 # Colaboradores
