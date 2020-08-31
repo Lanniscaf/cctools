@@ -1,0 +1,5 @@
+beautifulsoup4==4.9.1
+bs4==0.0.1
+configparser==5.0.0
+figlet==0.0.1
+requests==2.24.0
