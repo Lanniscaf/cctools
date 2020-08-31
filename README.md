@@ -17,7 +17,14 @@ Esta herramienta de navaja suiza en el Carding dispone de una variedad de opcion
 // Instalar python3 (solo en caso de no tenerlo instalado )
  - pkg install python3 --upgrade
 
-// ...
+// Clonar este repositorio:
+ - git clone https://github.com/Lanniscaf/cctools.git
+
+// Ingresar al proyecto
+ - cd cctools/
+
+// Instalar las dependencias necesarias:
+ - pip3 install -r requirements.txt
 
 
 # Colaboradores
