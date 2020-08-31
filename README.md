@@ -46,8 +46,8 @@ Esta herramienta de navaja suiza en el Carding dispone de una variedad de opcion
 
 # Colaboradores -Telegram
 
--> Propietario     { @lanniscaf
+-> Propietario     { [@lanniscaf](https://t.me/lanniscaf)
 
--> Co-Propietario  { @flyead | @JajajajajajjajJ 
+-> Co-Propietario  { [@flyead](https://t.me/flyead) | @JajajajajajjajJ 
 
--> Colaborador     { @meretec 
+-> Colaborador     { [@meretec](https://t.me/meretec)
