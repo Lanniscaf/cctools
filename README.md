@@ -11,6 +11,7 @@ Esta herramienta de navaja suiza en el Carding dispone de una variedad de opcion
  Para poder utilizar la herramienta proporcionada debe asumir la responsabilidad del correcto uso que le den a la misma, que no nos hacemos responsables de su mal uso, solo la publicamos con fines educativos y recreativos
 
 -> Instalacion:
+```
 // Actualizar el termux
  - apt update && apt upgrade -y
 
@@ -28,7 +29,7 @@ Esta herramienta de navaja suiza en el Carding dispone de una variedad de opcion
 
 // Ejecutar el script
  - python3 cctools.py
-
+```
 
 # Colaboradores -Telegram
 
