@@ -588,83 +588,83 @@ def banner():
   a="\033[0;32m          ``         T O O L S       ``"
   for i in a:
     print(i,end="",flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n          -h-`                        -"
   for i in a:
     print(i,end="",flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n          dMMy     `::`     ```      :N-"
   for i in a:
     print(i,end="",flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n         `MMMm`.:+shMNy+-./ohNd+:.` /NM/"
   for i in a:
     print(i,end="",flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n         .MMMmdNMMMMMMMh/-yMMMMMMNdsyMM+"
   for i in a:
     print(i,end="",flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n         `NMM+yMMMMMMMm/+o:dMMMMMMMNoNM+"
   for i in a:
     print(i,end="",flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n          yMm`-dNMNNmNNMMMMdhmNMMMm/`dM+"
   for i in a:
     print(i,end="",flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n          +MN-``:++/oNMMMMMMh/+oo/-``hM/"
   for i in a:
     print(i,end="",flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n          `dMm/::hmNMMNMMMMMMNmho-../hm`"
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n         ` /MMMMNmMMMmdmmmmmNMMNNNmmMM: `"
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n    `-+ydmo.dMMMMMMmhy/---:ohdNMMMMMMm:hmhs/-"
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n./shmNMMMMMd+dMMMMMms-.-.-..:hmMMMMMddNMMMMMNdy+:"
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n:hNMMMMMMMMMNNMMNMMNo-.-----/dNMNNMMNMMMMMMMMMMNs"
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n -sMMMMMmyys+dMMNmMNNhyo+oydNmhNmNNMsoyyyNMMMMN+`"
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n  :dNs::o.`:dNMMNNmNmhhyyhyyydmNNMMMNy.`:o:/hMo-"
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n   +do-.ym+NMMMMd.`:mNmmddmNNs.`/MMMMMhsN/`/hh."
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n    -ddmMMNNMMMMM/ :hMMMMMMMNs. hMMMMMdMMNdds"
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n     ..yMMMMMMMMd+ -mMMMdNMMMs``yNMMMMMMMM-."
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n       .mMMMdy/.                  `-ohNMMMs`"
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
   a="\n       `+y+.                         `-sy:"
   for i in a:
     print(i, end="", flush=True)
-    sleep(0.03)
+    sleep(0.005)
 
 #---------------------------------------------------
 #--------------------COMANDOS INLINE----------------
@@ -762,18 +762,18 @@ def main():
     print('\033[0m')
     for i in '\033[1;33m'+'[1] GENERAR CCS A BASE DE BIN':
         print(i,end='',flush=True)
-        sleep(0.04)
+        sleep(0.007)
     print()
     for i in '\033[1;32m'+'[2] CHECK BIN':
         print(i,end='',flush=True)
-        sleep(0.04)
+        sleep(0.007)
     print()
     for i in '\033[1;35m'+'[3] EXTRAPOLAR BIN/CC':
         print(i,end='',flush=True)
-        sleep(0.04)
+        sleep(0.007)
     for i in '\033[1;36m'+'\n[4] GENERAR DIRECCION':
         print(i,end='',flush=True)
-        sleep(0.04)
+        sleep(0.007)
     print()
     print()
     opt=input("\033[1;31m""~~>"+'\033[0m')
