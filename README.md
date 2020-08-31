@@ -7,6 +7,19 @@ Esta herramienta de navaja suiza en el Carding dispone de una variedad de opcion
  - Extrapolador de CCs [ Facil de usar y con todas las tecnicas mas utilizadas, de facil y rapida accion ]
  - Generador de Direcciones [ Scrapper con un listado de varios paises para generar una direccion real aleatoria ]
 
+# Capturas:
+![](https://toxiccomunity.ga/generador/picctool/maincap.jpg)
+
+![](https://toxiccomunity.ga/generador/picctool/ccgen.jpg)
+
+![](https://toxiccomunity.ga/generador/picctool/checkb.jpg)
+
+![](https://toxiccomunity.ga/generador/picctool/extrap.jpg)
+
+![](https://toxiccomunity.ga/generador/picctool/address1.jpg)
+
+![](https://toxiccomunity.ga/generador/picctool/address2.jpg)
+
 # Requisitos:
  Para poder utilizar la herramienta proporcionada debe asumir la responsabilidad del correcto uso que le den a la misma, que no nos hacemos responsables de su mal uso, solo la publicamos con fines educativos y recreativos
 
