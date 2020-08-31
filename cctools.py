@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-<one line to give the program's name and a brief idea of what it does.>
+CCTOOLS - Multi Tools of Carding, EDUCATIONAL PURPOSES.
 Copyright (C) 2020  Lanniscaf
 
 This program is free software: you can redistribute it and/or modify
