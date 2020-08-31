@@ -561,8 +561,7 @@ def generadorr(bins, month=False, year=False, codigocvv=False):
 #---------------------------------------------------
 #---------------------------------------------------
 #-----------------BANNER----------------------------
-def banner2:
-  ban = """\033[1;32m          ``         T O O L S       ``            
+ban = """\033[1;32m          ``         T O O L S       ``            
           -h-`                        -           
           dMMy     `::`     ```      :N-           
          `MMMm`.:+shMNy+-./ohNd+:.` /NM/           
@@ -586,7 +585,7 @@ def banner2:
 \033[91m  Este script esta hecho con fines educativos
 """
 def banner():
-  a="\033[1;32m          ``         T O O L S       ``"
+  a="\033[0;32m          ``         T O O L S       ``"
   for i in a:
     print(i,end="",flush=True)
     sleep(0.03)
