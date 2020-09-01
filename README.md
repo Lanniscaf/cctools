@@ -8,6 +8,8 @@ Esta herramienta de navaja suiza en el Carding dispone de una variedad de opcion
  - Generador de Direcciones [ Scrapper con un listado de varios paises para generar una direccion real aleatoria ]
 
 # Capturas:
+![Menu Script](https://toxiccomunity.ga/generador/picctool/main.gif)
+
 ![](https://toxiccomunity.ga/generador/picctool/maincap3.jpg)
 
 ![](https://toxiccomunity.ga/generador/picctool/ccgen.jpg)
