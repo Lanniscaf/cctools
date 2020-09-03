@@ -773,7 +773,7 @@ def GLAEP ( ):
     print('\n-------------------------------------------------------')
     tarjetas = generadorr(binomio, mes, ano, cvv)
     if ( tarjetas != True ):
-      throw("Error")
+        return False;
     binom= str(binomio)
     try:
       binom= binom.replace("x","")
