@@ -677,7 +677,7 @@ def generarB():
     print('\033[0m')
     binomio= input('\033[1;33m'+'BIN --> '+'\033[0m')
     mes= input('\033[1;33m'+'MES --> '+'\033[0m')
-    ano= input('\033[1;33m'+'AÃ‘O --> '+'\033[0m')
+    ano= input('\033[1;33m'+'AÑO --> '+'\033[0m')
     cvv=     input('\033[1;33m'+'CVV --> '+'\033[0m')
     print('\n-------------------------------------------------------')
     tarjetas = generadorr(binomio, mes, ano, cvv)
@@ -749,6 +749,56 @@ def direccionGen():
   input('\033[1;32m'+'Presione ENTER para continuar... ')
 #---------------------------------------------------
 #---------------------------------------------------
+def mostrarTarjetas ( tarjetas ):
+  if ( tarjetas == "" or tarjetas == False ):
+    return False
+  for i in tarjetas:
+    print("\033[1;32m"+i.center(50,' '),end='\n')
+
+def GLAEP ( ):
+  try:
+    os.system("clear")
+  except:
+    os.system("cls")
+  print("Title Box")
+  print()
+  #valor = input("Ingrese su BIN o CC --> $")
+  try:
+    print('\033[1;31m'+'OBS: Dejar en blanco para generar aleatorio!')
+    print('\033[0m')
+    binomio= input('\033[1;33m'+'BIN --> '+'\033[0m')
+    mes= input('\033[1;33m'+'MES --> '+'\033[0m')
+    ano= input('\033[1;33m'+'AÑO --> '+'\033[0m')
+    cvv=     input('\033[1;33m'+'CVV --> '+'\033[0m')
+    print('\n-------------------------------------------------------')
+    tarjetas = generadorr(binomio, mes, ano, cvv)
+    if ( tarjetas != True ):
+      throw("Error")
+    binom= str(binomio)
+    try:
+      binom= binom.replace("x","")
+      binom= binom.replace("X","")
+      binom= binom.split("|")[0]
+    except:
+      pass
+    binom = str(re.sub('([a-zA-Z]){1,}', '', binom))
+    lookup = alternateS(binom)
+    
+
+    # Mostrar Datos en orden L A G E P
+    print(lookup)
+    mostrarTarjetas(tarjetas)
+    print()
+    input('\033[1;33m'+'Presione ENTER para continuar...'+'\033[0m')
+  
+  except:
+    print("Printar error")
+    sleep(3)
+
+
+#---------------------------------------------------
+#---------------------------------------------------
+
 def main():
   b=0
   os.system('clear')
@@ -775,12 +825,16 @@ def main():
         print(i,end='',flush=True)
         sleep(0.007)
     print()
+    for i in '\033[1;36m'+'\n[99] EXIT':
+        print(i,end='',flush=True)
+        sleep(0.007)
+    print()
     print()
     opt=input("\033[1;31m""~~>"+'\033[0m')
-    if(opt=='version' or opt=='Version'):
+    if(opt=='version' or opt=='Version' or opt=="0"):
       print('VERSION E INFO DEL PROGRAMA...')
       print('CREADO POR @LANNISCAF')
-      print('VERSION: 0.1.3V')
+      print('VERSION: beta')
       sleep(2)
     elif(opt=='1'):
       generarB()
@@ -797,6 +851,11 @@ def main():
         direccionGen()
       except:
         print("ERROR: VERIFIQUE SU RED Y ELIJA UN PAIS VALIDO!")
+    elif ( opt=="5" ):
+      GLAEP()
+    elif ( opt == "99"):
+      break
+      #exit(1)
     else:
       for i in 'Opcion Invalida!':
         print(i,end='',flush=True)
